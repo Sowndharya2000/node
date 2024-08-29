@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+     <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">S-Kart</a>
+            <i class='bx bx-shopping-bag' id="cart-icon" data-quantity="0"></i>
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <div class="cart-content">
+                    
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">RS.0</div>
+                </div>
+                <button type="button" class="btn-buy">Pay Now</button>
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+  </header>
+
+   <section class="shop container">
+    
+    <h2 class="section-title">Shop Products</h2>
+    <div class="shop-content">
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgGs62__XaZUQ-mPU1wJOdVIbDoBMu93NhCnNJHd2edxc1iOHE4qdFi8WQNCMzcznI7S0d09gyJ9PWjqvn26wf16SMqEvSwl7HZ9jvgh_4-VRpkXB_gk4pKiYlADakt82VSQtS_qINKI4mx-M9uKI3v4QrGfTtI7rsLGv5AGz2a1VUOdGyYtz4u6ggi2IX/s320/product1.png"height="300px"
+            alt=""class="product-img"/>
+            <h2 class="product-title">SHIRT</h2>
+            <span class="price">RS.500</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnj1RIBCWu7den3QRC2R6IQoCzBLv4E9M62Ytchb5uZDrr1D6T9a4ZYBgGZLNZhzEOzcMCR5i3Mqcrpf4Qyy-fJbNpWXHVALbk6CcWhpXU-D1AxkOi2wJsatXDrH7DlQqhYPTxnZXoknwALM0M6JBbzFIkgjnSqY-dYZRpfiahBcRx45wMCey9Z64F_lgi/w640-h640/product2.png"height="300px"
+            alt=""class="product-img"/>
+            <h2 class="product-title">BAG</h2>
+            <span class="price">RS.400</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsPqR9qYwBKxuTuDk4ZVv7aMv6HTUWkQdc-vekPbkrdAWaJH_IcCJoOLm7RBgDL-fGc8ZhwtiGoYhh_GecwnTgtwH9c5Bq-y15qlGegoQz7DT7izjdcK2-G6xyPgFdGvkpqdFl5KtogZPGFm-fl5YmyE1dmJzdtyrVd2j-8rKtv6Nl3MOz5lV4gdF4PGg1/s320/product5.png"height="300px"
+            alt=""class="product-img"/>
+            <h2 class="product-title">T-SHIRT</h2>
+            <span class="price">RS.350</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+        <div class="product-box">
+            <img src="https://th.bing.com/th/id/OIP.mKFLpspnQHrT8XLEws3bhwHaHa?pid=ImgDet&w=151&h=151&c=7"height="300px"
+            alt=""class="product-img"/>
+            <h2 class="product-title">SMART WATCH</h2>
+            <span class="price">RS.1500</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9bgntTYOYMVockRMcQ9VUQKdblkbOx6CcZum_ZMIVoSEyZOQ47VWWI6b_m_v3weLF_LFGpRxnjHTjofF42uKRuozi_rvrzn9qR5MDGyKoZ1o0r7_eS-lcidlhGW_zt5GskINSdU5KZWGBTFa33_ZyK3aMDBq9Q6GyXireGSSclyepUESlsnOyvxNFbOFH/s320/product7.png"height="300px"
+            alt=""class="product-img"/>
+            <h2 class="product-title">EARBUDS</h2>
+            <span class="price">RS.1000</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz99WBpnRfCaVFmNYLic0zjkGLsypjH9Jc0aUS-84SdA9kRCX-LuGOiWkAhazVwJ3WJVYNTAktSR3o1cwt1c9QPYDOO46dX6GOxN_RMm3XzVu1bqRZTkH8XmOYLxf9Z2DvDk-YTOAYfb5HjOjcWVsUvxjUO0ZYy2KCPUH7CcoQlN3ZVJZdYR7sm7B32FK-/s320/product10.png"height="300px"
+            alt=""class="product-img"/>
+            <h2 class="product-title">WATER BOTTLE</h2>
+            <span class="price">RS.200</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+        <div class="product-box">
+            <img src="https://th.bing.com/th/id/OIP.vroo4MC2sbrH1pLG9AfBuAHaJ4?pid=ImgDet&w=151&h=176.75882352941176&c=7"height="300px"
+            alt=""class="product-img"/>
+            <h2 class="product-title">KURTIS</h2>
+            <span class="price">RS.350</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+        <div class="product-box">
+            <img src="https://d3d71ba2asa5oz.cloudfront.net/62000918/images/fjoriginals_45359_3_new.jpg" height="300px"
+            alt=""class="product-img"/>
+            <h2 class="product-title">SHOES</h2>
+            <span class="price">RS.700</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+    </div>
+   </section>
+
+   
+    <script src="main.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
+
+
+
+
+
